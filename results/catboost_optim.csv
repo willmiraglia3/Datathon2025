@@ -1,0 +1,88 @@
+basis_columns,prediction_columns,rmse
+['Vehicle Category'],"['Number of Vehicles Registered at the Same Address', 'GVWR Class', 'Region', 'Electric Mile Range', 'Model Year', 'Fuel Type']",8021.485706
+['Region'],"['Vehicle Category', 'GVWR Class', 'Fuel Type', 'Fuel Technology', 'Electric Mile Range', 'Model Year', 'Number of Vehicles Registered at the Same Address']",8322.727932
+"['Vehicle Category', 'GVWR Class']","['Electric Mile Range', 'Region', 'Model Year', 'Number of Vehicles Registered at the Same Address', 'Fuel Type']",8329.655095
+['GVWR Class'],"['Number of Vehicles Registered at the Same Address', 'Fuel Type', 'Model Year', 'Region', 'Vehicle Category', 'Fuel Technology', 'Electric Mile Range']",8340.24827
+['Region'],"['Fuel Type', 'Fuel Technology', 'Electric Mile Range', 'Vehicle Category', 'Model Year', 'Number of Vehicles Registered at the Same Address', 'GVWR Class']",8345.749897
+"['Model Year', 'GVWR Class']","['Vehicle Category', 'Electric Mile Range', 'Fuel Type', 'Region', 'Number of Vehicles Registered at the Same Address']",8363.278834
+['Vehicle Category'],"['Electric Mile Range', 'Fuel Type', 'Model Year', 'GVWR Class', 'Fuel Technology']",8587.910984
+"['Vehicle Category', 'Fuel Type', 'Fuel Technology']","['GVWR Class', 'Electric Mile Range', 'Model Year', 'Region', 'Number of Vehicles Registered at the Same Address']",8626.109353
+"['Vehicle Category', 'Fuel Type', 'Electric Mile Range']","['Region', 'Number of Vehicles Registered at the Same Address', 'Fuel Technology', 'Model Year', 'GVWR Class']",8647.392288
+"['Fuel Type', 'Region']","['GVWR Class', 'Number of Vehicles Registered at the Same Address', 'Electric Mile Range', 'Vehicle Category', 'Model Year']",8774.04789
+"['GVWR Class', 'Vehicle Category']","['Model Year', 'Region', 'Fuel Technology', 'Fuel Type', 'Electric Mile Range']",8804.781501
+['Fuel Type'],"['GVWR Class', 'Region', 'Fuel Technology', 'Number of Vehicles Registered at the Same Address', 'Model Year', 'Electric Mile Range', 'Vehicle Category']",8833.428372
+['Electric Mile Range'],"['Fuel Type', 'Number of Vehicles Registered at the Same Address', 'GVWR Class', 'Fuel Technology', 'Vehicle Category', 'Model Year']",8876.575882
+['Vehicle Category'],"['Fuel Technology', 'Model Year', 'Region', 'Electric Mile Range', 'Number of Vehicles Registered at the Same Address', 'Fuel Type']",8887.581051
+"['Electric Mile Range', 'Region']","['GVWR Class', 'Model Year', 'Vehicle Category', 'Number of Vehicles Registered at the Same Address', 'Fuel Type']",8948.548382
+"['GVWR Class', 'Electric Mile Range']","['Vehicle Category', 'Number of Vehicles Registered at the Same Address', 'Fuel Type', 'Fuel Technology', 'Model Year', 'Region']",9180.984391
+"['Vehicle Category', 'Electric Mile Range']","['Number of Vehicles Registered at the Same Address', 'GVWR Class', 'Fuel Type', 'Region', 'Model Year', 'Fuel Technology']",9314.303579
+"['Region', 'Number of Vehicles Registered at the Same Address', 'GVWR Class']","['Fuel Type', 'Vehicle Category', 'Fuel Technology', 'Model Year']",9458.508961
+['Fuel Type'],"['Model Year', 'Number of Vehicles Registered at the Same Address', 'Vehicle Category', 'Electric Mile Range', 'Fuel Technology']",9468.959943
+"['Region', 'Fuel Type']","['Fuel Technology', 'Electric Mile Range', 'Vehicle Category', 'Number of Vehicles Registered at the Same Address', 'Model Year']",9471.904324
+"['GVWR Class', 'Fuel Technology', 'Region']","['Vehicle Category', 'Electric Mile Range', 'Model Year', 'Fuel Type']",9647.281435
+"['Region', 'Model Year', 'Fuel Type']","['GVWR Class', 'Electric Mile Range', 'Number of Vehicles Registered at the Same Address', 'Fuel Technology', 'Vehicle Category']",9649.01629
+"['GVWR Class', 'Region', 'Fuel Technology']","['Model Year', 'Vehicle Category', 'Fuel Type']",9672.016053
+"['Region', 'Electric Mile Range', 'GVWR Class']","['Vehicle Category', 'Fuel Type', 'Model Year']",9693.77014
+"['Vehicle Category', 'Fuel Technology']","['Fuel Type', 'Model Year', 'GVWR Class', 'Region', 'Electric Mile Range']",9719.629579
+['Number of Vehicles Registered at the Same Address'],"['Fuel Technology', 'Fuel Type', 'Region', 'Electric Mile Range', 'Model Year', 'Vehicle Category']",9865.12351
+['Number of Vehicles Registered at the Same Address'],"['Fuel Type', 'Region', 'Model Year', 'Vehicle Category', 'Electric Mile Range']",9909.039051
+['Electric Mile Range'],"['Model Year', 'Vehicle Category', 'Fuel Type']",10028.67224
+"['Number of Vehicles Registered at the Same Address', 'Fuel Technology', 'GVWR Class']","['Region', 'Fuel Type', 'Electric Mile Range', 'Vehicle Category', 'Model Year']",10200.94929
+"['Fuel Technology', 'Vehicle Category', 'Region']","['Model Year', 'Electric Mile Range', 'Fuel Type']",10505.43002
+"['Model Year', 'Electric Mile Range']","['Fuel Type', 'Vehicle Category', 'Region', 'GVWR Class', 'Fuel Technology']",11166.76144
+"['Fuel Technology', 'Model Year']","['Fuel Type', 'Electric Mile Range', 'Vehicle Category', 'GVWR Class']",11168.47071
+"['Number of Vehicles Registered at the Same Address', 'Fuel Technology']","['Fuel Type', 'Electric Mile Range', 'Vehicle Category', 'Model Year']",12687.15454
+['Vehicle Category'],"['Model Year', 'Fuel Type', 'GVWR Class', 'Number of Vehicles Registered at the Same Address']",13217.31048
+"['Number of Vehicles Registered at the Same Address', 'Fuel Technology', 'Fuel Type']","['Model Year', 'Vehicle Category', 'GVWR Class', 'Region', 'Electric Mile Range']",13463.98704
+"['Vehicle Category', 'Number of Vehicles Registered at the Same Address']","['GVWR Class', 'Fuel Type', 'Model Year']",13545.59891
+"['Fuel Type', 'Electric Mile Range']","['Region', 'Model Year', 'Number of Vehicles Registered at the Same Address', 'Vehicle Category', 'GVWR Class', 'Fuel Technology']",14159.75115
+"['Fuel Type', 'Fuel Technology']","['GVWR Class', 'Electric Mile Range', 'Region', 'Vehicle Category', 'Model Year', 'Number of Vehicles Registered at the Same Address']",14189.11955
+"['Number of Vehicles Registered at the Same Address', 'Model Year']","['Region', 'Vehicle Category', 'Fuel Type', 'GVWR Class', 'Fuel Technology', 'Electric Mile Range']",14350.1437
+"['Region', 'Model Year', 'Number of Vehicles Registered at the Same Address']","['GVWR Class', 'Vehicle Category', 'Electric Mile Range', 'Fuel Technology', 'Fuel Type']",14412.24112
+"['Electric Mile Range', 'Fuel Type']","['Model Year', 'Fuel Technology', 'Vehicle Category', 'Region', 'GVWR Class']",14475.6628
+"['GVWR Class', 'Number of Vehicles Registered at the Same Address', 'Fuel Type']","['Electric Mile Range', 'Vehicle Category', 'Region']",14943.11123
+"['Fuel Type', 'Vehicle Category']","['Electric Mile Range', 'Region', 'Fuel Technology', 'GVWR Class', 'Number of Vehicles Registered at the Same Address']",14950.16051
+"['Electric Mile Range', 'Region']","['Fuel Type', 'Fuel Technology', 'GVWR Class', 'Vehicle Category', 'Number of Vehicles Registered at the Same Address']",15101.43958
+['Number of Vehicles Registered at the Same Address'],"['Vehicle Category', 'Fuel Type', 'GVWR Class', 'Region', 'Fuel Technology']",15117.30194
+"['GVWR Class', 'Fuel Technology']","['Fuel Type', 'Vehicle Category', 'Region', 'Electric Mile Range']",15160.64111
+"['GVWR Class', 'Fuel Technology']","['Vehicle Category', 'Electric Mile Range', 'Fuel Type']",15161.55834
+"['Fuel Type', 'Number of Vehicles Registered at the Same Address']","['Vehicle Category', 'Fuel Technology', 'Electric Mile Range']",15212.34105
+"['Region', 'Fuel Technology', 'Vehicle Category']","['Electric Mile Range', 'Fuel Type', 'Number of Vehicles Registered at the Same Address']",15241.78121
+"['Fuel Technology', 'Fuel Type', 'GVWR Class']","['Number of Vehicles Registered at the Same Address', 'Region', 'Vehicle Category', 'Model Year', 'Electric Mile Range']",15531.44507
+"['Vehicle Category', 'Number of Vehicles Registered at the Same Address']","['GVWR Class', 'Fuel Type', 'Region']",15728.75713
+['Electric Mile Range'],"['Vehicle Category', 'Number of Vehicles Registered at the Same Address', 'Region', 'GVWR Class', 'Model Year']",16505.8343
+"['Electric Mile Range', 'GVWR Class', 'Region']","['Fuel Technology', 'Model Year', 'Vehicle Category']",16610.04633
+"['Region', 'Vehicle Category', 'Fuel Technology']","['GVWR Class', 'Number of Vehicles Registered at the Same Address', 'Electric Mile Range', 'Model Year']",16658.86274
+['Model Year'],"['Vehicle Category', 'Region', 'Number of Vehicles Registered at the Same Address', 'Electric Mile Range', 'Fuel Technology']",16970.04776
+['Model Year'],"['Fuel Technology', 'Region', 'Number of Vehicles Registered at the Same Address', 'Vehicle Category']",16995.01368
+"['Region', 'Fuel Type', 'Fuel Technology']","['Vehicle Category', 'Number of Vehicles Registered at the Same Address', 'Electric Mile Range']",17043.93978
+"['Number of Vehicles Registered at the Same Address', 'Electric Mile Range']","['GVWR Class', 'Vehicle Category', 'Region', 'Fuel Technology', 'Model Year']",17193.27181
+['Fuel Type'],"['Number of Vehicles Registered at the Same Address', 'Fuel Technology', 'GVWR Class', 'Region', 'Model Year']",17347.66597
+"['Number of Vehicles Registered at the Same Address', 'Fuel Technology', 'Electric Mile Range']","['Vehicle Category', 'Region', 'Model Year']",17402.62227
+['Model Year'],"['Electric Mile Range', 'GVWR Class', 'Fuel Type', 'Number of Vehicles Registered at the Same Address', 'Region']",17595.4269
+['Model Year'],"['Number of Vehicles Registered at the Same Address', 'GVWR Class', 'Fuel Technology', 'Fuel Type']",17603.79119
+['Model Year'],"['GVWR Class', 'Fuel Type', 'Fuel Technology', 'Electric Mile Range', 'Number of Vehicles Registered at the Same Address', 'Region']",17628.71047
+"['Region', 'Vehicle Category']","['GVWR Class', 'Number of Vehicles Registered at the Same Address', 'Fuel Technology', 'Electric Mile Range']",17639.14305
+['Electric Mile Range'],"['Number of Vehicles Registered at the Same Address', 'GVWR Class', 'Fuel Technology', 'Vehicle Category', 'Region']",17690.20333
+['Fuel Technology'],"['Vehicle Category', 'GVWR Class', 'Region', 'Electric Mile Range']",17750.68402
+"['Vehicle Category', 'Number of Vehicles Registered at the Same Address', 'Electric Mile Range']","['Model Year', 'Region', 'Fuel Technology']",17806.77017
+"['Region', 'Number of Vehicles Registered at the Same Address', 'Model Year']","['Electric Mile Range', 'Fuel Type', 'GVWR Class']",18239.26083
+"['Fuel Technology', 'Electric Mile Range', 'Region']","['Fuel Type', 'Model Year', 'Number of Vehicles Registered at the Same Address']",18338.62757
+"['GVWR Class', 'Region']","['Electric Mile Range', 'Fuel Type', 'Number of Vehicles Registered at the Same Address']",18349.54192
+['Fuel Technology'],"['Fuel Type', 'Number of Vehicles Registered at the Same Address', 'Electric Mile Range', 'GVWR Class', 'Region']",18355.86144
+"['Region', 'GVWR Class', 'Fuel Type']","['Number of Vehicles Registered at the Same Address', 'Fuel Technology', 'Electric Mile Range']",18357.91196
+"['GVWR Class', 'Fuel Type']","['Number of Vehicles Registered at the Same Address', 'Fuel Technology', 'Region', 'Electric Mile Range']",18357.91196
+['Number of Vehicles Registered at the Same Address'],"['Region', 'Fuel Type', 'GVWR Class']",18408.93723
+['Model Year'],"['Region', 'Number of Vehicles Registered at the Same Address', 'Fuel Type']",18455.62339
+['Model Year'],"['Fuel Technology', 'GVWR Class', 'Electric Mile Range']",18586.13496['Electric Mile Range'],"['GVWR Class', 'Fuel Type', 'Region', 'Number of Vehicles Registered at the Same Address']",18355.404321592785
+['Region'],"['GVWR Class', 'Electric Mile Range', 'Model Year', 'Fuel Type', 'Fuel Technology']",17363.872416309216
+"['Region', 'Number of Vehicles Registered at the Same Address']","['GVWR Class', 'Vehicle Category', 'Fuel Technology']",17694.486073008346
+"['Fuel Technology', 'Number of Vehicles Registered at the Same Address']","['Vehicle Category', 'Region', 'Model Year', 'GVWR Class']",17197.09485793763
+['Fuel Type'],"['Region', 'Model Year', 'Fuel Technology']",18358.58662402331
+"['Number of Vehicles Registered at the Same Address', 'GVWR Class', 'Region']","['Vehicle Category', 'Model Year', 'Fuel Type', 'Fuel Technology', 'Electric Mile Range']",9359.687433385789
+"['Region', 'Number of Vehicles Registered at the Same Address', 'Electric Mile Range']","['GVWR Class', 'Vehicle Category', 'Fuel Technology', 'Model Year', 'Fuel Type']",12241.010276736934
+"['Region', 'GVWR Class']","['Electric Mile Range', 'Fuel Technology', 'Fuel Type', 'Number of Vehicles Registered at the Same Address', 'Model Year']",17369.331691469357
+"['Region', 'Electric Mile Range', 'GVWR Class']","['Number of Vehicles Registered at the Same Address', 'Fuel Technology', 'Fuel Type']",18360.41785752619
+['GVWR Class'],"['Electric Mile Range', 'Model Year', 'Number of Vehicles Registered at the Same Address', 'Vehicle Category', 'Fuel Technology', 'Region', 'Fuel Type']",8405.085487638526
+['Region'],"['Number of Vehicles Registered at the Same Address', 'Fuel Technology', 'Fuel Type', 'Model Year', 'Electric Mile Range', 'Vehicle Category', 'GVWR Class']",8358.559783066408
+"['Electric Mile Range', 'Vehicle Category']","['GVWR Class', 'Fuel Type', 'Fuel Technology']",15163.49815174659
