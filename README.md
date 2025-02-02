@@ -27,4 +27,12 @@ Then, to bring it to together, for a car with Electric Fuel Type, we:
 3. Use this model to predict the target variable: Vehicle Population
 
 ### Bayesian Optimization
-After this method to create our model, we then used Bayesian hyperparameter optimization. This is what we used to fine-tune our CatBoost models to make our models optimal. 
+After this method to create our model, we then used Bayesian hyperparameter optimization using the Optuna library. This is what we used to fine-tune our CatBoost models to make our models optimal. To find strong hyperparameters while keeping the time/computational complexity manageable, we quit our parameter tuning process for each basis model after 30 seconds or 20 parameter combinations evaluated - whichever came first.
+
+### Model Specifications
+
+To clean the data, We imputed missing categorical values with the category "Missing," which was directly compatible with our CatBoost model. For numerical columns, we simply imputed using the series mean. We also added functionality to one-hot encode our predictors throughout our modeling framework, but we ended up not using this feature. 
+
+## Challenges we ran into
+
+Using several basis models made overarching model design more complex and significantly increased computational intensity during training. It forced us to fit and store thousands of models which created delays for us computationally. 
