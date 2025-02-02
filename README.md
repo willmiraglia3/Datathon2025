@@ -1,6 +1,6 @@
-# Datathon2025
+# Rice Datathon 2025
 
-Chevron Challenge
+Chevron Track.
 
 # Description:
 
