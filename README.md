@@ -6,6 +6,16 @@ Chevron Challenge.
 
 In this challenge, we aim to predict the Vehicle Population for different types of cars. Vehicle Population refers to the total inventory of vehicles categorized by features such as model year, fuel type, and vehicle category.
 
+# Data
+
+###  Data Cleaning
+
+To clean the data, We imputed missing categorical values with the category "Missing," which was directly compatible with our CatBoost model. We also added functionality to one-hot encode our predictors throughout our modeling framework, but we ended up not using this feature. 
+
+### Additional Data
+
+We wanted to add some macro data to our analysis. We found there to be sufficient data for our predictions on FRED. We added the Consumer Price Index for All Urban Consumers: Used Cars and Trucks in the US City Average. This alternative data allowed us to see macro impacts to add to other categorical data like Model Year. We will call this CPI in this report. This data was monthly from 1970 to 2024. Since we are predicting on data up till 2026. We simply forecasted the data to fill in this gaps. For "Missing" Model Year, we inputted the mean of the CPI over time. 
+
 # Our Model:
 
 We use CatBoost models to predict Vehicle Population. Our method involves grouping the data based on key features (referred to as basis columns) and training separate models for each group.
@@ -29,10 +39,14 @@ Then, to bring it to together, for a car with Electric Fuel Type, we:
 ### Bayesian Optimization
 After this method to create our model, we then used Bayesian hyperparameter optimization using the Optuna library. This is what we used to fine-tune our CatBoost models to make our models optimal. To find strong hyperparameters while keeping the time/computational complexity manageable, we quit our parameter tuning process for each basis model after 30 seconds or 20 parameter combinations evaluated - whichever came first.
 
-### Model Specifications
-
-To clean the data, We imputed missing categorical values with the category "Missing," which was directly compatible with our CatBoost model. For numerical columns, we simply imputed using the series mean. We also added functionality to one-hot encode our predictors throughout our modeling framework, but we ended up not using this feature. 
-
-## Challenges we ran into
+# Challenges
 
 Using several basis models made overarching model design more complex and significantly increased computational intensity during training. It forced us to fit and store thousands of models which created delays for us computationally. 
+
+# Key Insights
+
+After testing many different basis and prediction column combinations, we found that Vehicle Type was returning the best results and accuracy as the basis. This led us to focusing our tests on this as the basis column. This tells us that much complexity and clustering comes from the Vehicle Type when detemrining Vehicle Population. 
+
+This led us to optimizing to have Fuel Technology, CPI: Used Cars and Trucks, Number of Vehicles Registered at the Same Address, GVWR Class, Electric Mile Range, Fuel Type, and Model Year as our predictor columns. 
+
+With hyperparamter tuning, this brought our RMSE to 7,374.
