@@ -1,6 +1,6 @@
 # Datathon2025
 
-Chevron Challenge.
+Chevron Challenge
 
 # Description:
 
