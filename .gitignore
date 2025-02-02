@@ -1,2 +1,5 @@
 .venv
+.DS_Store
 notebooks/catboost_info
+data
+results
