@@ -1,5 +1,5 @@
 .venv
 .DS_Store
-notebooks/catboost_info
+src/notebooks/catboost_info
 data
 results
