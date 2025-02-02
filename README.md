@@ -49,4 +49,4 @@ After testing many different basis and prediction column combinations, we found 
 
 This led us to optimizing to have Fuel Technology, CPI: Used Cars and Trucks, Number of Vehicles Registered at the Same Address, GVWR Class, Electric Mile Range, Fuel Type, and Model Year as our predictor columns. 
 
-With hyperparamter tuning, this brought our RMSE to 7,374.
+With hyperparameter tuning, this brought our RMSE to 7,374.
