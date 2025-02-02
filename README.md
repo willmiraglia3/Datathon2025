@@ -45,7 +45,7 @@ Using several basis models made overarching model design more complex and signif
 
 # Key Insights
 
-After testing many different basis and prediction column combinations, we found that Vehicle Type was returning the best results and accuracy as the basis. This led us to focusing our tests on this as the basis column. This tells us that much complexity and clustering comes from the Vehicle Type when detemrining Vehicle Population. 
+After testing many different basis and prediction column combinations, we found that Vehicle Type was returning the best results and accuracy as the basis. This led us to focusing our tests on this as the basis column. This tells us that much complexity and clustering comes from the Vehicle Type when determining Vehicle Population. 
 
 This led us to optimizing to have Fuel Technology, CPI: Used Cars and Trucks, Number of Vehicles Registered at the Same Address, GVWR Class, Electric Mile Range, Fuel Type, and Model Year as our predictor columns. 
 
