@@ -4,6 +4,8 @@ Chevron Track:
 RMSE 7,374  
 Submission File in Repo: ChevronDatathon2025_Submission.xlsx
 
+To run this, run notebook.ipynb under src/notebooks
+
 # Description:
 
 In this challenge, we aim to predict the Vehicle Population for different types of cars. Vehicle Population refers to the total inventory of vehicles categorized by features such as model year, fuel type, and vehicle category.
