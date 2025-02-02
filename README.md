@@ -10,7 +10,7 @@ In this challenge, we aim to predict the Vehicle Population for different types 
 
 ###  Data Cleaning
 
-To clean the data, We imputed missing categorical values with the category "Missing," which was directly compatible with our CatBoost model. We also added functionality to one-hot encode our predictors throughout our modeling framework, but we ended up not using this feature. 
+To clean the data, we first realized there were missing values in the Model Year column. To combat this, we imputed missing categorical values named "Missing." Since we interpretted this column as categorical, this solution was enough for us. We also added functionality to one-hot encode our predictors throughout our modeling framework, but we ended up not using this feature. 
 
 ### Additional Data
 
