@@ -18,7 +18,10 @@ To clean the data, we first realized there were missing values in the Model Year
 
 ### Additional Data
 
-We wanted to add some macro data to our analysis. We found there to be sufficient data for our predictions on FRED. We added the Consumer Price Index for All Urban Consumers: Used Cars and Trucks in the US City Average. This alternative data allowed us to see macro impacts to add to other categorical data like Model Year. We will call this CPI in this report. This data was monthly from 1970 to 2024. Since we are predicting on data up till 2026. We simply forecasted the data to fill in this gaps. For "Missing" Model Year, we inputted the mean of the CPI over time. 
+We wanted to add some macro data to our analysis. We found there to be sufficient data for our predictions on FRED. We added the Consumer Price Index for All Urban Consumers: Used Cars and Trucks in the US City Average. This alternative data allowed us to see macro impacts to add to other categorical data like Model Year. We will call this CPI in this report. This data was monthly from 1970 to 2024. Since we are predicting on data up till 2026. We simply forecasted the data to fill in this gaps. For "Missing" Model Year, we inputted the mean of the CPI over time.   
+
+SOURCE: https://fred.stlouisfed.org/series/CUSR0000SETA02  
+
 
 # Our Model:
 
