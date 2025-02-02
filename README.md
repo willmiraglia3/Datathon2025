@@ -1,6 +1,8 @@
 # Rice Datathon 2025
 
-Chevron Track.
+Chevron Track:  
+RMSE 7,374
+Submission File in Repo: ChevronDatathon2025_Submission.xlsx
 
 # Description:
 
